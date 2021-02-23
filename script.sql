@@ -1,5 +1,7 @@
 create database library;
 
+\connect library;
+
 create table books
 (
 	book_id bigserial not null
