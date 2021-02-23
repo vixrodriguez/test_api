@@ -1,0 +1,312 @@
+{
+	"id": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+	"name": "Library",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "authors",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"order": [
+				"980324e7-ccb8-7d80-4ebd-b38d4e5c0188",
+				"1e590f25-454b-b53c-67bc-e6498e0ced37",
+				"448a150e-041b-c176-dbe8-d80ac1ed3495",
+				"c6279f5a-d3c3-79c7-83e5-75151a7f04c5"
+			],
+			"owner": "4844322",
+			"folders_order": [],
+			"id": "b9b94fc5-1677-700e-e080-aa53576312fe"
+		},
+		{
+			"name": "books",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"order": [
+				"48163247-b7e2-68c3-0f84-e4758324abe8",
+				"1291756b-678b-f01e-a4a5-563abd53285d",
+				"dd84899f-aab7-0b3e-c367-7947d7b3cad7",
+				"eff7f0a3-bc14-862d-ad65-7a359e9b86ea",
+				"3afe75e1-695b-c964-6600-b4903e3b41e4"
+			],
+			"owner": "4844322",
+			"folders_order": [],
+			"id": "83f778c4-e618-e91f-af9a-7885f794eb3c"
+		}
+	],
+	"folders_order": [
+		"83f778c4-e618-e91f-af9a-7885f794eb3c",
+		"b9b94fc5-1677-700e-e080-aa53576312fe"
+	],
+	"timestamp": 1614013241186,
+	"owner": "4844322",
+	"public": false,
+	"requests": [
+		{
+			"id": "1291756b-678b-f01e-a4a5-563abd53285d",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8069/books/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"data": null,
+			"dataMode": "params",
+			"name": "Delete Book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1614013336295,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c"
+		},
+		{
+			"id": "1e590f25-454b-b53c-67bc-e6498e0ced37",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/authors",
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614052308701,
+			"name": "Create Author",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"El Libro Verde\",\n\t\"isbn\": \"dsdfdsfdsfsdfdsfdskkll\"\n}"
+		},
+		{
+			"id": "3afe75e1-695b-c964-6600-b4903e3b41e4",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/books/",
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614039941379,
+			"name": "Update partial book",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "3afe75e1-695b-c964-6600-b4903e3b41e4",
+			"rawModeData": "{\n\t\"title\": \"sdasad\",\n\t\"isbn\": \"\"\n}"
+		},
+		{
+			"id": "448a150e-041b-c176-dbe8-d80ac1ed3495",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8069/author/1",
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614052448760,
+			"name": "Delete Author",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": []
+		},
+		{
+			"id": "48163247-b7e2-68c3-0f84-e4758324abe8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/books",
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614013313254,
+			"name": "Get Books",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "48163247-b7e2-68c3-0f84-e4758324abe8",
+			"rawModeData": "{\n\t\"title\": \"Principito\",\n\t\"isbn\": \"dsfsdfds\"\n}"
+		},
+		{
+			"id": "980324e7-ccb8-7d80-4ebd-b38d4e5c0188",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/authors",
+			"folder": "b9b94fc5-1677-700e-e080-aa53576312fe",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614051433541,
+			"name": "Get Authors",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"Principito\",\n\t\"isbn\": \"dsfsdfds\"\n}"
+		},
+		{
+			"id": "c6279f5a-d3c3-79c7-83e5-75151a7f04c5",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/authors/",
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614052474565,
+			"name": "Update author",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": [],
+			"rawModeData": "{\n\t\"title\": \"sdasad\",\n\t\"isbn\": \"\"\n}"
+		},
+		{
+			"id": "dd84899f-aab7-0b3e-c367-7947d7b3cad7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/books",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Create Book",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1614039515439,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"rawModeData": "{\n\t\"title\": \"El Libro Verde\",\n\t\"isbn\": \"dsdfdsfdsfsdfdsfdskkll\"\n}"
+		},
+		{
+			"id": "eff7f0a3-bc14-862d-ad65-7a359e9b86ea",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8069/books/",
+			"folder": "83f778c4-e618-e91f-af9a-7885f794eb3c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1614039941379,
+			"name": "Update book",
+			"description": "",
+			"collectionId": "4c959e1d-7c7e-d2f0-23fb-898cde888fa5",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "eff7f0a3-bc14-862d-ad65-7a359e9b86ea",
+			"rawModeData": "{\n\t\"title\": \"sdasad\",\n\t\"isbn\": \"\"\n}"
+		}
+	]
+}
