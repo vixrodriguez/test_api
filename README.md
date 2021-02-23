@@ -1,4 +1,4 @@
-# test_api
+# API
 
 La base de datos utilizada es PostgreSQL v12.6.
 
